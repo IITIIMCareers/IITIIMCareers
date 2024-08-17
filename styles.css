@@ -6,10 +6,10 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* Body styling with a clean, modern look */
+/* Body styling with a clean, white background */
 body {
-    background-color: #1a1a1a; /* Dark background for a sleek look */
-    color: white;
+    background-color: white; /* White background */
+    color: #1a1a1a;
     line-height: 1.6;
 }
 
@@ -18,6 +18,7 @@ header {
     background-color: #3a3aea;
     text-align: center;
     padding: 50px 20px;
+    color: white;
 }
 
 header h1 {
@@ -32,17 +33,19 @@ header p {
     color: #ef6533;
 }
 
-/* Section styling with clean and spacious layout */
+/* Section styling with a clean layout on a white background */
 section {
     padding: 60px 20px;
-    background-color: #2a2a2a;
+    background-color: white; /* White background for sections */
     margin: 20px 0;
     border-radius: 12px;
+    color: #1a1a1a;
+    border: 1px solid #ddd; /* Light border for separation */
 }
 
 /* Mission and other headings with distinctive color and size */
 h2 {
-    color: #ef6533;
+    color: #3a3aea;
     font-size: 2.4em;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -51,7 +54,7 @@ h2 {
 
 /* Subheadings within sections */
 h3 {
-    color: #3a3aea;
+    color: #ef6533;
     font-size: 1.8em;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -93,24 +96,23 @@ ul li {
     background-color: #3a3aea;
 }
 
-/* Footer with consistent theme and additional spacing */
+/* Footer with a blue background and consistent spacing */
 footer {
     text-align: center;
     background-color: #3a3aea;
     padding: 40px 20px;
     border-top: 4px solid #ef6533;
+    color: white;
 }
 
 footer h2 {
     font-size: 2em;
-    color: white;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 
 footer p {
     font-size: 1.2em;
-    color: #ef6533;
     margin-bottom: 10px;
 }
 
