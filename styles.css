@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3a3aea;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ef6533;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.mission, .why-choose-us, .programs, .success-stories, .cta, footer {
+    background-color: #2a2a2a;
+    margin: 20px 0;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #ef6533;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #3a3aea;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.cta {
+    text-align: center;
+}
+
+.button {
+    background-color: #ef6533;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3a3aea;
+}
+
+footer {
+    text-align: center;
+    background-color: #3a3aea;
+}
+
+footer a {
+    color: #ef6533;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
